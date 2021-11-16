@@ -29,5 +29,7 @@ if  st.button('Make prediction') and len(inputStr) > 0:
     print(res)
     if res == 0:
         st.write("The review is negative")
+        st.markdown("![Alt Text](https://media.giphy.com/media/8OVBzeDTFe8XQfivmP/giphy.gif)")
     if res == 1:
         st.write("The review is positive")
+        st.markdown("![Alt Text](https://media.giphy.com/media/l0MYKDrj6SXHz8YYU/giphy.gif)")
